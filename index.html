@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Modo estudio</title>
+    <style>
+      body {
+        font-family: system-ui;
+        max-width: 1000px;
+        margin: 30px auto;
+        padding: 0 16px;
+      }
+      .row {
+        display: flex;
+        gap: 12px;
+        flex-wrap: wrap;
+        align-items: center;
+      }
+      .card {
+        border: 1px solid #ddd;
+        border-radius: 12px;
+        padding: 16px;
+        margin-top: 14px;
+      }
+      button,
+      select,
+      input {
+        padding: 10px 12px;
+        border-radius: 10px;
+        border: 1px solid #ccc;
+        background: #fff;
+      }
+      button {
+        cursor: pointer;
+      }
+      button:hover {
+        background: #f6f6f6;
+      }
+      .muted {
+        opacity: 0.75;
+      }
+      .qhead {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        align-items: flex-start;
+      }
+      .opts {
+        display: grid;
+        gap: 8px;
+        margin-top: 10px;
+      }
+      .opt {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        border: 1px solid #eee;
+        border-radius: 10px;
+        padding: 10px;
+      }
+      .opt input {
+        margin: 0;
+      }
+      .pill {
+        display: inline-block;
+        padding: 4px 10px;
+        border: 1px solid #ddd;
+        border-radius: 999px;
+      }
+      .good {
+        color: green;
+      }
+      .bad {
+        color: #b00020;
+      }
+      .hidden {
+        display: none;
+      }
+      .result-item {
+        border-top: 1px solid #eee;
+        padding-top: 10px;
+        margin-top: 10px;
+      }
+
+      details {
+        border: 1px solid #eee;
+        border-radius: 12px;
+        padding: 10px;
+      }
+      details + details {
+        margin-top: 10px;
+      }
+      summary {
+        cursor: pointer;
+        font-weight: 600;
+      }
+      .bank-q {
+        border-top: 1px dashed #eee;
+        margin-top: 10px;
+        padding-top: 10px;
+      }
+      .correct {
+        font-weight: 700;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Modo estudio</h1>
+
+    <div class="row">
+      <button id="navExam">Examen</button>
+      <button id="navBank">Banco de preguntas</button>
+      <span class="muted" id="globalInfo"></span>
+    </div>
+
+    <!-- EXAMEN -->
+    <div class="card" id="setup">
+      <h2>Examen</h2>
+      <div class="row">
+        <label>
+          Tema:
+          <select id="topicSelect">
+            <option value="__ALL__">Todos</option>
+          </select>
+        </label>
+
+        <label>
+          Tiempo (min):
+          <input id="minutes" type="number" min="1" max="180" value="30" />
+        </label>
+
+        <label>
+          Nº preguntas:
+          <input id="count" type="number" min="1" max="500" value="25" />
+        </label>
+
+        <button id="startBtn">Empezar</button>
+        <span class="muted" id="info"></span>
+      </div>
+    </div>
+
+    <div class="card hidden" id="exam">
+      <div class="qhead">
+        <div>
+          <div class="pill" id="progress"></div>
+          <div class="muted" id="topicLabel"></div>
+        </div>
+        <div class="pill" id="timer">--:--</div>
+      </div>
+
+      <h2 id="questionText" style="margin-top: 14px"></h2>
+      <form id="optionsForm" class="opts"></form>
+
+      <div class="row" style="margin-top: 14px">
+        <button id="prevBtn" type="button">Anterior</button>
+        <button id="nextBtn" type="button">Siguiente</button>
+        <button id="finishBtn" type="button">Finalizar</button>
+        <span class="muted" id="unanswered"></span>
+      </div>
+    </div>
+
+    <div class="card hidden" id="results">
+      <h2>Resultados</h2>
+      <p id="scoreLine"></p>
+      <div id="resultList"></div>
+      <div class="row" style="margin-top: 14px">
+        <button id="backBtn" type="button">Volver</button>
+      </div>
+    </div>
+
+    <!-- BANCO -->
+    <div class="card hidden" id="bank">
+      <div class="row" style="justify-content: space-between">
+        <h2 style="margin: 0">Banco de preguntas</h2>
+
+        <label class="muted">
+          Buscar:
+          <input id="bankSearch" type="text" placeholder="palabra clave..." />
+        </label>
+      </div>
+
+      <p class="muted">Haz clic en un tema para desplegar sus preguntas.</p>
+      <div id="bankContainer"></div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

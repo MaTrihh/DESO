@@ -400,10 +400,10 @@
     "topic": "Tema 1",
     "question": "Durante la cuarta generación o etapa en la historia de los sistemas operativos, la tecnología en el diseño de los computadores fue:",
     "options": [
-      "Alvaro maricon",
-      "Jesus maricon",
+      "Circuitos integrados (SSI/MSI).",
+      "El transistor.",
       "Tubo de vacío.",
-      "Victor maricon"
+      "Tecnología LSI y VLSI (microprocesadores)."
     ],
     "answerIndex": 2
   },
@@ -411,10 +411,10 @@
     "topic": "Tema 1",
     "question": "Un sistema operativo en el que es necesario conocer la localización de los recursos es:",
     "options": [
-      "Alvaro maricon",
-      "Jesus maricon",
-      "Un sistema operativo de red",
-      "Victor maricon"
+      "Un sistema operativo distribuido.",
+      "Un sistema operativo de tiempo compartido.",
+      "Un sistema operativo de red.",
+      "Un sistema operativo monousuario."
     ],
     "answerIndex": 2
   },
@@ -422,10 +422,10 @@
     "topic": "Tema 1",
     "question": "Según la clasificación por tipo de aplicación que se hace de los sistemas operativos, estos se pueden clasificar en:",
     "options": [
-      "Alvaro maricon",
-      "Jesus maricon",
+      "Sistemas operativos monoprogramados y multiprogramados.",
+      "Sistemas operativos de tiempo real y de tiempo compartido.",
       "Sistemas operativos de propósito general y sistemas operativos de propósito específico.",
-      "Victor maricon"
+      "Sistemas operativos monousuario y multiusuario."
     ],
     "answerIndex": 2
   },
@@ -813,7 +813,7 @@
       "El tiempo medio de espera con Round Robin será siempre menor.",
       "Dependerá exclusivamente del quantum utilizado."
     ],
-    "answerIndex": -1
+    "answerIndex": 0
   },
   {
     "topic": "Tema 2",
@@ -1155,7 +1155,7 @@
       "Hay fragmentación interna y externa.",
       "Hay fragmentación interna."
     ],
-    "answerIndex": -1
+    "answerIndex": 0
   },
   {
     "topic": "Tema 3",
@@ -1266,7 +1266,7 @@
       "Fragmentación interna: 1400, Fragmentación externa: 0.",
       "Fragmentación interna: 700, Fragmentación externa: 700."
     ],
-    "answerIndex": -1
+    "answerIndex": 2
   },
   {
     "topic": "Tema 3",
@@ -1345,11 +1345,11 @@
     "question": "Se denomina intercambio o swapping:",
     "options": [
       "La aplicación de cualquier algoritmo de sustitución de páginas cuando se produce un fallo de página.",
-      "El hecho de que una tarea reemplace a otra en el estado de ejecución de acuerdo con el planificador a corto plazo. -NO",
-      "El hecho de que una tarea reemplace a otra en el estado de ejecución siguiendo una estrategia de expropiación. -NO",
-      "El hecho de salvar una tarea suspendida en memoria secundaria. -??"
+      "El hecho de que una tarea reemplace a otra en el estado de ejecución de acuerdo con el planificador a corto plazo.",
+      "El hecho de que una tarea reemplace a otra en el estado de ejecución siguiendo una estrategia de expropiación.",
+      "El hecho de salvar una tarea suspendida en memoria secundaria."
     ],
-    "answerIndex": -1
+    "answerIndex": 3
   },
   {
     "topic": "Tema 3",

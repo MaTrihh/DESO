@@ -233,12 +233,7 @@
   {
     "topic": "Tema 1",
     "question": "En un sistema operativo de tiempo compartido, la entidad básica a controlar es:",
-    "options": [
-      "El usuario.",
-      "La tarea.",
-      "El proceso.",
-      "La sesión."
-    ],
+    "options": ["El usuario.", "La tarea.", "El proceso.", "La sesión."],
     "answerIndex": 3
   },
   {
@@ -387,12 +382,7 @@
   {
     "topic": "Tema 1",
     "question": "Durante el desarrollo de los sistemas operativos, ¿cuántas etapas o generaciones encontramos?:",
-    "options": [
-      "2 etapas.",
-      "3 etapas.",
-      "4 etapas.",
-      "5 etapas."
-    ],
+    "options": ["2 etapas.", "3 etapas.", "4 etapas.", "5 etapas."],
     "answerIndex": 2
   },
   {
@@ -623,6 +613,914 @@
       "El SO puede interrumpir al proceso en cualquier momento para dárselo a otro.",
       "El usuario decide manualmente qué proceso recibe la CPU.",
       "La CPU se reparte siempre en partes iguales sin interrupciones."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 2",
+    "question": "¿En qué nivel de planificación de procesos se encuentra el componente llamado despachador o dispatcher?",
+    "options": [
+      "En el planificador de corto plazo.",
+      "En el planificador de medio plazo.",
+      "En el planificador de largo plazo.",
+      "Dependiendo del sistema operativo, puede estar en el de medio plazo o en el de largo plazo."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 2",
+    "question": "Se tienen dos procesos: P1 y P2, de tiempos de ejecución 25 y 30 ms respectivamente. El planificador a corto plazo actúa según Round Robin con quantum de 10 ms. ¿Cuál será el tiempo de servicio de P1?",
+    "options": ["45 ms.", "65 ms.", "50 ms.", "70 ms."],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 2",
+    "question": "El sistema encargado de seleccionar al proceso que pasa a ejecución de entre los preparados es:",
+    "options": [
+      "El reubicador.",
+      "El planificador a largo plazo.",
+      "El planificador a corto plazo.",
+      "El planificador a medio plazo."
+    ],
+    "answerIndex": 2
+  },
+  {
+    "topic": "Tema 2",
+    "question": "Si comparamos los resultados de distintos algoritmos de planificación:",
+    "options": [
+      "El algoritmo que proporciona el mayor tiempo de servicio medio es el mejor.",
+      "El algoritmo que proporciona el menor tiempo de espera medio es el mejor.",
+      "El algoritmo que proporciona el mayor índice de servicio medio es el mejor.",
+      "El algoritmo que proporciona el menor índice de servicio medio es el mejor."
+    ],
+    "answerIndex": 2
+  },
+  {
+    "topic": "Tema 2",
+    "question": "Las interrupciones son usadas:",
+    "options": [
+      "Ninguna respuesta es correcta.",
+      "Para diferenciar dispositivos por niveles.",
+      "Para chequear el estado del dispositivo.",
+      "Para avisar de un final de entrada/salida de dispositivo."
+    ],
+    "answerIndex": 3
+  },
+  {
+    "topic": "Tema 2",
+    "question": "Un sistema de tiempo compartido:",
+    "options": [
+      "Es un sistema multiprogramado y a la inversa también se cumple.",
+      "Ninguna de las anteriores.",
+      "Es un sistema monoprogramado y a la inversa también se cumple.",
+      "Es un sistema multiprogramado pero no a la inversa."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 2",
+    "question": "El vector de interrupciones se encuentra situado en:",
+    "options": [
+      "Ninguna respuesta es correcta.",
+      "En el disco.",
+      "En la rutina de tratamiento de la interrupción.",
+      "En el PCB."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 2",
+    "question": "Dos hebras no comparten:",
+    "options": [
+      "El contador de programa.",
+      "Ninguna respuesta es correcta.",
+      "El espacio de direcciones.",
+      "Los archivos abiertos."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 2",
+    "question": "¿Cuál es el orden de ejecución de los procesos P1, P2 y P3 según el algoritmo SRT si sus tiempos de ejecución son 15 ms, 5 ms y 15 ms respectivamente y el orden de llegada es 0 ms, 5 ms y 10 ms?",
+    "options": [
+      "P1, P2 y P3.",
+      "P1, P2, P1 y P3.",
+      "P2, P1 y P3.",
+      "No se puede determinar."
+    ],
+    "answerIndex": 1
+  },
+  {
+    "topic": "Tema 2",
+    "question": "En un sistema operativo monousuario y monoprogramado:",
+    "options": [
+      "Todas las respuestas son correctas.",
+      "En memoria sólo puede haber un proceso.",
+      "Se acepta una única conexión de varios usuarios.",
+      "Se aceptan varias conexiones de varios usuarios."
+    ],
+    "answerIndex": 1
+  },
+  {
+    "topic": "Tema 2",
+    "question": "¿Qué política de planificación es mejor en ambientes muy interactivos?",
+    "options": ["SJF.", "FCFS.", "Round Robin.", "SRT."],
+    "answerIndex": 2
+  },
+  {
+    "topic": "Tema 2",
+    "question": "En sistemas Unix, ¿qué respuesta es incorrecta?",
+    "options": [
+      "Se dispone de al menos 99 niveles de prioridad.",
+      "Se elige siempre al proceso o hilo con la prioridad más alta.",
+      "Si un proceso es expulsado por otro de mayor prioridad sin agotar su quantum, se coloca al principio de su cola con el quantum restante.",
+      "Están disponibles las políticas FIFO, Round Robin y otra opcional."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 2",
+    "question": "El registro IR:",
+    "options": [
+      "Es un registro de base.",
+      "Es un registro de control y estado.",
+      "Es un registro de dirección.",
+      "Es un registro de datos."
+    ],
+    "answerIndex": 1
+  },
+  {
+    "topic": "Tema 2",
+    "question": "En una gestión apropiativa del procesador:",
+    "options": [
+      "Ninguna respuesta es correcta.",
+      "El sistema operativo no puede quitar el procesador al programa que se está ejecutando.",
+      "El sistema operativo puede quitar el procesador al programa que se está ejecutando.",
+      "Un programa puede quitar el procesador al programa que se está ejecutando."
+    ],
+    "answerIndex": 2
+  },
+  {
+    "topic": "Tema 2",
+    "question": "Se tienen tres procesos P1, P2 y P3 con tiempos de ejecución 85, 45 y 118 ms respectivamente. Usando SJF, el orden será:",
+    "options": [
+      "P2, P1 y P3.",
+      "P3, P1 y P2.",
+      "P1, P2 y P3.",
+      "Depende del quantum."
+    ],
+    "answerIndex": 3
+  },
+  {
+    "topic": "Tema 2",
+    "question": "El tiempo de retorno corresponde:",
+    "options": [
+      "Al tiempo que transcurre desde que un proceso se crea hasta que se completa.",
+      "Al porcentaje medio de utilización del procesador.",
+      "Al número de procesos completados por unidad de tiempo.",
+      "Al tiempo que el proceso espera el procesador."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 2",
+    "question": "Llega una interrupción procedente de un dispositivo de E/S mientras un proceso de usuario se está ejecutando. ¿Qué suele ocurrir justo a continuación?:",
+    "options": [
+      "Se atiende la interrupción de forma inmediata, en el modo de operación en el que se encontraba el procesador en el momento de ocurrir la operación.",
+      "Se conmuta a modo usuario para que el proceso dialogue con la E/S de acuerdo con sus necesidades.",
+      "Se ignora la interrupción, ya que el sistema está ejecutando código en modo usuario y si se atiende aquella, podría haber problemas de seguridad.",
+      "Se conmuta a modo supervisor y se ejecuta la rutina de servicio de interrupción correspondiente."
+    ],
+    "answerIndex": 3
+  },
+  {
+    "topic": "Tema 2",
+    "question": "En la planificación Round Robin:",
+    "options": [
+      "Cada proceso preparado pasa a ejecución durante un tiempo llamado quantum.",
+      "El proceso con menor tiempo restante pasa a ejecución.",
+      "Los procesos se ejecutan según prioridad.",
+      "No existe cambio de contexto."
+    ],
+    "answerIndex": 3
+  },
+  {
+    "topic": "Tema 2",
+    "question": "Supongamos que en un momento dado llegan a un sistema N procesos, cada uno con una sola ráfaga de CPU y todos con exactamente la misma duración. Respecto al tiempo medio de espera:",
+    "options": [
+      "El tiempo medio de espera será el mismo, cualquiera que sea la política de planificación empleada.",
+      "El tiempo medio de espera con FCFS y SJF será siempre distinto.",
+      "El tiempo medio de espera con Round Robin será siempre menor.",
+      "Dependerá exclusivamente del quantum utilizado."
+    ],
+    "answerIndex": -1
+  },
+  {
+    "topic": "Tema 2",
+    "question": "El planificador a medio plazo selecciona un proceso:",
+    "options": [
+      "De entre los suspendidos en memoria secundaria para pasar a la cola de preparados.",
+      "De entre los recién llegados para pasar a la cola de preparados.",
+      "De entre los preparados para pasar a ejecución.",
+      "De entre los suspendidos en memoria principal para finalizarlo."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 2",
+    "question": "A la hora de hacer problemas de planificación, el orden establecido de llegada de sucesos es:",
+    "options": [
+      "Llegada de proceso, fin de E/S, fin del quantum.",
+      "Fin del quantum, llegada de proceso, fin de E/S.",
+      "Fin de E/S, llegada de proceso, fin del quantum.",
+      "Llegada de proceso, fin del quantum, fin de E/S."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 2",
+    "question": "Cuando se produce un cambio de contexto:",
+    "options": [
+      "Se produce cambio de proceso.",
+      "Se ejecuta el planificador.",
+      "Se ejecuta el despachador.",
+      "Ninguna respuesta es correcta."
+    ],
+    "answerIndex": 3
+  },
+  {
+    "topic": "Tema 2",
+    "question": "¿Cuál de las siguientes transiciones de estado de procesos es incorrecta?",
+    "options": [
+      "Preparado a bloqueado.",
+      "Inactivo a preparado.",
+      "Bloqueado a suspendido bloqueado.",
+      "Ejecución a preparado."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 2",
+    "question": "El PCB (Process Control Block) de un proceso contiene, al menos:",
+    "options": [
+      "Todas las afirmaciones anteriores son correctas.",
+      "El código, los datos y la pila de un proceso.",
+      "El estado y el identificador de un proceso.",
+      "El grado de multiprogramación de un proceso."
+    ],
+    "answerIndex": 2
+  },
+  {
+    "topic": "Tema 2",
+    "question": "¿Qué información se guarda en el PCB de un proceso?",
+    "options": [
+      "La prioridad.",
+      "Los ficheros abiertos.",
+      "El identificador del proceso padre.",
+      "Todas son correctas."
+    ],
+    "answerIndex": 3
+  },
+  {
+    "topic": "Tema 2",
+    "question": "De los siguientes elementos, ¿cuál no forma parte del PCB ni se almacena en él?",
+    "options": [
+      "El gestor de interrupciones.",
+      "La prioridad del proceso.",
+      "El estado del proceso.",
+      "Los registros de la CPU."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 2",
+    "question": "¿En qué nivel de ejecución se es más restrictivo?",
+    "options": [
+      "En el nivel usuario.",
+      "En el nivel kernel.",
+      "En el nivel de sistema.",
+      "En el nivel de aplicación."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 2",
+    "question": "El área de swap o intercambio se usa para:",
+    "options": [
+      "Almacenar los procesos suspendidos.",
+      "Ejecutar procesos de alta prioridad.",
+      "Guardar únicamente datos de usuario.",
+      "Almacenar instrucciones del kernel."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 2",
+    "question": "El tiempo de servicio corresponde matemáticamente a:",
+    "options": [
+      "Tiempo de procesador más tiempo de espera.",
+      "Tiempo total en cola.",
+      "Tiempo de retorno menos tiempo de espera.",
+      "Tiempo de entrada/salida."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 2",
+    "question": "El tiempo de procesador coincide con el tiempo de ejecución:",
+    "options": [
+      "Solo si no hay operaciones de entrada/salida.",
+      "Siempre.",
+      "Nunca.",
+      "Solo en sistemas monoprogramados."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 2",
+    "question": "Algunas de las ventajas del uso de hebras son:",
+    "options": [
+      "Todas las respuestas son correctas.",
+      "Es más rápido terminar el proceso que uno de sus hilos.",
+      "Es más rápido crear un proceso nuevo que un hilo en un proceso existente.",
+      "Es más rápido cambiar entre dos hilos de un mismo proceso que cambiar de proceso."
+    ],
+    "answerIndex": 3
+  },
+  {
+    "topic": "Tema 2",
+    "question": "¿Cuál de las siguientes afirmaciones es correcta?",
+    "options": [
+      "Un sistema operativo que soporta tiempo compartido también soporta multitarea.",
+      "Un sistema operativo que soporta multitarea también soporta tiempo compartido.",
+      "Un sistema operativo que soporta monotarea también soporta multitarea.",
+      "Un sistema operativo que soporta monotarea también soporta tiempo compartido."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 2",
+    "question": "¿Cuál es la principal diferencia entre los algoritmos SJF y SRT?",
+    "options": [
+      "SRT es apropiativo y SJF no lo es.",
+      "SJF es apropiativo y SRT no lo es.",
+      "SJF es más rápido que SRT.",
+      "No existe ninguna diferencia."
+    ],
+    "answerIndex": 3
+  },
+  {
+    "topic": "Tema 2",
+    "question": "¿A qué nos referimos cuando hablamos de interrupciones múltiples?",
+    "options": [
+      "A permitir que llegue una interrupción mientras se está atendiendo a otra.",
+      "Ninguna respuesta es correcta.",
+      "A que son muchas las interrupciones que nos pueden llegar en un sistema.",
+      "A que llegan muchas interrupciones por unidad de tiempo."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 2",
+    "question": "El planificador a corto plazo selecciona:",
+    "options": [
+      "La página en memoria que se debe sustituir por la página que se solicita cuando se produce un fallo de página.",
+      "Entre las peticiones de E/S al disco aquella que minimiza el tiempo medio de búsqueda.",
+      "El proceso que pasa al estado activo (ejecución) de entre todos los procesos en estado preparado.",
+      "El trabajo que se admite en el sistema para su procesamiento."
+    ],
+    "answerIndex": 2
+  },
+  {
+    "topic": "Tema 2",
+    "question": "¿Cuál es el orden de ejecución de los procesos P1, P2 y P3 según SJF si sus tiempos son 15 ms, 5 ms y 15 ms y el orden de llegada es 0 ms, 5 ms y 10 ms?",
+    "options": [
+      "P2, P1 y P3.",
+      "P1, P2 y P3.",
+      "P1, P2, P1 y P3.",
+      "No se puede determinar."
+    ],
+    "answerIndex": 1
+  },
+  {
+    "topic": "Tema 3",
+    "question": "Tenemos un sistema con paginación bajo demanda pura. Podemos decir respecto al número de páginas cargadas en memoria que:",
+    "options": [
+      "Ninguna de la anteriores.",
+      "Es igual al conjunto de trabajo.",
+      "Mayor que el conjunto de trabajo.",
+      "Menor que el conjunto de trabajo."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 3",
+    "question": "La Paginación sufre:",
+    "options": [
+      "De fragmentación externa e interna.",
+      "De fragmentación interna.",
+      "Ninguna de las anteriores.",
+      "De fragmentación externa."
+    ],
+    "answerIndex": 1
+  },
+  {
+    "topic": "Tema 3",
+    "question": "En el algoritmo peor en ajustarse, Worst Fit, para la selección de un área libre de memoria asigna se elige:",
+    "options": [
+      "El bloque libre más grande, siempre que el tamaño del bloque exceda el tamaño necesario.",
+      "Ninguna de las anteriores.",
+      "El primer bloque libre suficientemente grande que encuentra.",
+      "El bloque libre más grande, siempre que el tamaño del bloque no exceda el tamaño necesario."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 3",
+    "question": "El espacio de direcciones virtuales de un proceso comienza en la dirección 0x0000 y termina en la 0xFAFC. Si el proceso genera la dirección virtual 0xCFFF, podemos decir que esta dirección...",
+    "options": [
+      "Será correcta si la memoria física tiene, al menos, 0xCFFF direcciones.",
+      "No podemos decir nada porque no sabemos la correspondencia entre la dirección virtual y la dirección física.",
+      "Será correcta si la memoria física tiene, al menos, 0xFAFC direcciones.",
+      "Es válida."
+    ],
+    "answerIndex": 3
+  },
+  {
+    "topic": "Tema 3",
+    "question": "¿Cuál es la página que se sustituirá en el algoritmo de sustitución “óptimo”?",
+    "options": [
+      "La siguiente que se va a utilizar.",
+      "La que tardará más en volverse a utilizar.",
+      "La utilizada menos frecuentemente.",
+      "La que se utilizó la última vez."
+    ],
+    "answerIndex": 1
+  },
+  {
+    "topic": "Tema 3",
+    "question": "En un sistema con gestión de memoria basada en segmentación paginada, ¿cuántos fallos de página provocará un proceso cuando se cargue en memoria si ocupa 2 segmentos completos? Nota: cada segmento ocupa como máximo 2 páginas:",
+    "options": ["4.", "2.", "Ninguna de las anteriores.", "Entre 2 y 4."],
+    "answerIndex": 2
+  },
+  {
+    "topic": "Tema 3",
+    "question": "¿Cuál de estas técnicas de gestión de memoria no padece fragmentación interna?",
+    "options": [
+      "Particiones múltiples de tamaño fijo (MFT).",
+      "Paginación.",
+      "Todas las anteriores padecen algún tipo de fragmentación interna.",
+      "Segmentación."
+    ],
+    "answerIndex": 3
+  },
+  {
+    "topic": "Tema 3",
+    "question": "La tabla de páginas indica que la página 2 tiene asociado el marco de número 3. El tamaño de la página es de 1Kb. ¿Cuál es la dirección física para la dirección virtual (2, 326) dada en el formato? (no pág., desplazamiento en la pág.):",
+    "options": [
+      "Se necesita conocer el tamaño del marco.",
+      "1×1024+326.",
+      "3+326.",
+      "3×1024+326."
+    ],
+    "answerIndex": 3
+  },
+  {
+    "topic": "Tema 3",
+    "question": "La generación de direcciones físicas en un sistema de memoria segmentada le corresponde a este componente:",
+    "options": ["El enlazador.", "El cargador.", "La MMU.", "El compilador."],
+    "answerIndex": 2
+  },
+  {
+    "topic": "Tema 3",
+    "question": "Para una dirección lógica con el formato [número de segmento (2 bits), número de página (16 bits), desplazamiento de 6 bits]:",
+    "options": [
+      "El número de páginas por segmento es 2^16 pero el tamaño de la página depende del tamaño del segmento.",
+      "El número de páginas por segmento es de 2^18 y el tamaño de la página de 2^8 bytes.",
+      "El número de páginas totales es de 2^18 pero el tamaño de la página depende del tamaño del segmento.",
+      "El número de segmentos totales es de 2^2 y el tamaño máximo del segmento es de 2^24 bytes."
+    ],
+    "answerIndex": 3
+  },
+  {
+    "topic": "Tema 3",
+    "question": "Con la llegada de la reubicación dinámica se consigue...",
+    "options": [
+      "Que los programas no tengan que estar enteros en memoria a lo largo de su ejecución.",
+      "La multiprogramación.",
+      "Que los programas no estén contiguos en memoria durante su ejecución.",
+      "La movilidad de los programas en la memoria a lo largo de su ejecución."
+    ],
+    "answerIndex": 3
+  },
+  {
+    "topic": "Tema 3",
+    "question": "Para una dirección lógica de 32 bits con el formato [número de pág. (22 bits), desplazamiento de la pág. (10 bits)]:",
+    "options": [
+      "El número de páginas totales es de 2^22 pero el tamaño de la página depende del marco de página.",
+      "El número de páginas totales es de 2^32 pero el tamaño de la página depende del marco de página.",
+      "El número de páginas totales es de 2^22 y el tamaño de la página de 2^10 bytes.",
+      "El número de páginas totales es de 22 y el tamaño de la página es de 10 bytes."
+    ],
+    "answerIndex": 2
+  },
+  {
+    "topic": "Tema 3",
+    "question": "Si usamos particiones de tamaño fijo:",
+    "options": [
+      "Controlamos las particiones con la tabla de descripción de particiones.",
+      "No se puede producir fragmentación interna.",
+      "El proceso debe dividirse en trozos del mismo tamaño.",
+      "El grado de multiprogramación usando swapping no puede superar el nº de particiones."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 3",
+    "question": "Si tenemos un working set con un periodo s=5 y en los últimos 5 instantes de tiempo hubo 4 fallos de página:",
+    "options": [
+      "No podemos saber cuánto vale el working set.",
+      "El working set vale 0.",
+      "El working set vale 5.",
+      "El working set vale 4."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 3",
+    "question": "En particiones variables...",
+    "options": [
+      "Hay fragmentación externa",
+      "Si hay interna no puede haber externa.",
+      "Hay fragmentación interna y externa.",
+      "Hay fragmentación interna."
+    ],
+    "answerIndex": -1
+  },
+  {
+    "topic": "Tema 3",
+    "question": "¿Cuál de las siguientes técnicas es más adecuada para tratar el problema de la hiperpaginación?:",
+    "options": [
+      "La técnica basada en el control de la frecuencia de fallos de páginas.",
+      "La asignación global.",
+      "Ninguna de las anteriores.",
+      "La técnica consistente en asignar a cada proceso una cantidad de marcos de página proporcional al tamaño de su espacio direccionable."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 3",
+    "question": "En un sistema con segmentación paginada, el número de fallos de página:",
+    "options": [
+      "Es siempre 0.",
+      "Dependerá del conjunto de trabajo.",
+      "Es proporcional al número de segmentos.",
+      "Se incrementará con el número de procesos."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 3",
+    "question": "Tenemos dos sistemas, uno usa particiones fijas y el otro, particiones variables. Si la cola de procesos esperando es y queda libre una partición de 30 Kb y ambos sistemas usan Best Fit:",
+    "options": [
+      "El sistema de particiones fijas asignará el proceso A a la partición.",
+      "Las respuestas (a) y (b) son correctas.",
+      "Las respuestas (a) y (b) son incorrectas.",
+      "El sistema de particiones variables asignará el proceso A a la partición."
+    ],
+    "answerIndex": 3
+  },
+  {
+    "topic": "Tema 3",
+    "question": "El algoritmo óptimo de sustitución de páginas en la gestión de la memoria virtual debe:",
+    "options": [
+      "Sustituir aquella página cuyo bit de referenciado esté a 0.",
+      "Sustituir aquella página que lleve más tiempo en memoria.",
+      "Sustituir aquella página que menos se ha usado últimamente.",
+      "Sustituir aquella página que tardará más en volverse a utilizar."
+    ],
+    "answerIndex": 3
+  },
+  {
+    "topic": "Tema 3",
+    "question": "Suponga la función matemática f(M) que devuelve el número de fallos de página de una política, dada el número M de marco de página disponibles. A medida que M aumenta, la pendiente de f(M)...",
+    "options": ["Disminuye.", "Aumenta.", "Permanece.", "Tiende a infinito."],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 3",
+    "question": "Una librería dinámica se carga en memoria...",
+    "options": [
+      "Cuando el programa invoca a alguno de los métodos contenidos en ella.",
+      "Cuando se compila el programa que la usa.",
+      "Cuando se carga el programa que la usa.",
+      "Cuando se ejecuta el programa que la usa."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 3",
+    "question": "En la tabla de segmentos se encuentra que el segmento 0 tiene una base de 219 y una longitud de 600. ¿A qué dirección física se corresponde la dirección virtual (0, 430) dada en el formato? (nº seg., desplazamiento dentro del seg.):",
+    "options": [
+      "219+430=649 > 600 ⇒ Error de direccionamiento.",
+      "Es necesario conocer el tamaño del marco.",
+      "219×0+430=430.",
+      "219+430=649."
+    ],
+    "answerIndex": 3
+  },
+  {
+    "topic": "Tema 3",
+    "question": "¿Cuál de estas políticas de reemplazo de páginas es menos costosa de implementar?:",
+    "options": ["LRU.", "Óptima.", "FIFO.", "Algoritmo del reloj."],
+    "answerIndex": 2
+  },
+  {
+    "topic": "Tema 3",
+    "question": "La compactación de memoria es necesaria en un esquema de gestión de memoria:",
+    "options": [
+      "De paginación.",
+      "De particiones variables.",
+      "De particiones fijas.",
+      "Ninguna de las anteriores."
+    ],
+    "answerIndex": 1
+  },
+  {
+    "topic": "Tema 3",
+    "question": "En paginación bajo demanda pura...",
+    "options": [
+      "Tendremos tantas tramas como indique el conjunto de trabajo.",
+      "Cada referencia supone un fallo de página.",
+      "Ninguna de las anteriores.",
+      "Inicialmente habrá tantos fallos de página como tramas tenga asignado el proceso."
+    ],
+    "answerIndex": 2
+  },
+  {
+    "topic": "Tema 3",
+    "question": "Supongamos un sistema en el que la memoria posee las siguientes particiones fijas libres: 1000 Kb, 400 Kb, 1800 Kb, 700 Kb, 900 Kb, 1200 Kb y 1500 Kb. Estas particiones están disponibles en el orden dado. Se requieren las siguientes peticiones de tamaño: 1200 Kb, 1000 Kb y 900 Kb. Si se usa el algoritmo siguiente en ajuste, ¿cuál es el total de fragmentación externa e interna resultante?:",
+    "options": [
+      "Fragmentación interna: 0, Fragmentación externa: 1400.",
+      "Fragmentación interna: 0, Fragmentación externa: 0.",
+      "Fragmentación interna: 1400, Fragmentación externa: 0.",
+      "Fragmentación interna: 700, Fragmentación externa: 700."
+    ],
+    "answerIndex": -1
+  },
+  {
+    "topic": "Tema 3",
+    "question": "Si un sistema utiliza memoria virtual paginada y un proceso puede comenzar su ejecución sin tener ninguna página en memoria se habla de:",
+    "options": [
+      "Sistema de paginación de estado suspendido.",
+      "Sistema de paginación previa.",
+      "Sistema de paginación por demanda pura.",
+      "Sistema de paginación con conjunto inicial de páginas vacío."
+    ],
+    "answerIndex": 2
+  },
+  {
+    "topic": "Tema 3",
+    "question": "Cuál de las siguientes afirmaciones es correcta:",
+    "options": [
+      "Siempre que se produce un fallo de página se generan dos operaciones de acceso la memoria secundaria, una para guardar la página a expulsar y otra para cargar la página referida.",
+      "Según el modelo del conjunto de trabajo, las referencias de los programas no tienden a agruparse por fases.",
+      "Ninguna de las otras respuestas es correcta.",
+      "La página que se sustituye con el algoritmo del reloj o segunda oportunidad es la que lleva más tiempo en memoria."
+    ],
+    "answerIndex": 2
+  },
+  {
+    "topic": "Tema 3",
+    "question": "La anomalía de Belady consiste en que:",
+    "options": [
+      "Al disminuir el tamaño de las páginas, aumentan los fallos de página.",
+      "Al aumentar el grado de multiprogramación aumentan los fallos de página.",
+      "Al aumentar el número de marcos de página para asignación, aumentan los fallos de página.",
+      "Al disminuir el número de marcos de página para asignación, aumentan los fallos de página."
+    ],
+    "answerIndex": 2
+  },
+  {
+    "topic": "Tema 3",
+    "question": "Si tenemos cargadas en memoria las páginas 1,2 y 3 y sabemos que la página 1 se referenció en el instante 0 y 3, la 2 en el 1, y la 3 en el 2, que página se reemplazaría si se usa la técnica de envejecimiento de 4 bits:",
+    "options": ["La 3.", "O la 2 o la 3.", "La 1.", "La 2."],
+    "answerIndex": 1
+  },
+  {
+    "topic": "Tema 3",
+    "question": "Diga cuál de las siguientes afirmaciones relativas al algoritmo de sustitución de páginas de uso no frecuentes, NFU, son ciertas:",
+    "options": [
+      "Las afirmaciones a y b son falsas.",
+      "Las afirmaciones a y b son ciertas.",
+      "Este algoritmo posee una tasa de fallos mayor que el algoritmo de la segunda oportunidad (algoritmo del reloj).",
+      "Este algoritmo posee una tasa de fallos mayor que el algoritmo LRU."
+    ],
+    "answerIndex": 3
+  },
+  {
+    "topic": "Tema 3",
+    "question": "El término reubicable se refiere a:",
+    "options": [
+      "La posibilidad de cargar y ejecutar un programa dado en un lugar arbitrario de memoria.",
+      "La posibilidad de colocar los archivos en cualquier sector del disco.",
+      "La posibilidad de ejecutar un programa en cualquier momento.",
+      "La posibilidad de que los datos se carguen en cualquier lugar."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 3",
+    "question": "El modelo de Memoria virtual no resulta interesante implementarlo con:",
+    "options": [
+      "Paginación.",
+      "Ninguna de las anteriores.",
+      "Segmentación paginada.",
+      "Segmentación."
+    ],
+    "answerIndex": 3
+  },
+  {
+    "topic": "Tema 3",
+    "question": "Se denomina intercambio o swapping:",
+    "options": [
+      "La aplicación de cualquier algoritmo de sustitución de páginas cuando se produce un fallo de página.",
+      "El hecho de que una tarea reemplace a otra en el estado de ejecución de acuerdo con el planificador a corto plazo. -NO",
+      "El hecho de que una tarea reemplace a otra en el estado de ejecución siguiendo una estrategia de expropiación. -NO",
+      "El hecho de salvar una tarea suspendida en memoria secundaria. -??"
+    ],
+    "answerIndex": -1
+  },
+  {
+    "topic": "Tema 3",
+    "question": "El TLB se usa en:",
+    "options": [
+      "Segmentación.",
+      "Particiones.",
+      "Paginación.",
+      "Ninguna de las anteriores."
+    ],
+    "answerIndex": 2
+  },
+  {
+    "topic": "Tema 3",
+    "question": "Dada la siguiente secuencia de referencias: 8, 1, 2, 3, 1, 4, 1. Si se disponen de tres marcos de página (inicialmente vacíos) y se utiliza la política de reemplazo LRU ¿Cuántos fallos de página se producirán al resolver todas las referencias de la secuencia?:",
+    "options": ["6.", "3.", "5.", "7."],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 3",
+    "question": "Si usamos gestión de memoria basada en particiones variables para gestionar una memoria de 6 MB y tenemos un espacio libre contiguo de 3 MB y llega un proceso de 4 MB la fragmentación externa vale:",
+    "options": ["6 Mb.", "0.", "3 Mb.", "4 Mb."],
+    "answerIndex": 1
+  },
+  {
+    "topic": "Tema 3",
+    "question": "El algoritmo de asignación de memoria peor en ajustarse consiste en que el gestor de memoria asigna al proceso entrante:",
+    "options": [
+      "El bloque libre más pequeño suficientemente grande para contener al proceso.",
+      "Todos los bloques libres que quedan, independientemente de sus tamaños.",
+      "El primer bloque libre suficientemente grande, aunque sea el peor.",
+      "El bloque más grande, siempre que el tamaño del bloque exceda al tamaño necesario."
+    ],
+    "answerIndex": 3
+  },
+  {
+    "topic": "Tema 3",
+    "question": "¿Cuál de los siguientes no es un ejemplo de sistema de gestión de memoria virtual?:",
+    "options": [
+      "Partición dinámica.",
+      "Paginación.",
+      "Paginación/segmentación.",
+      "Segmentación."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 3",
+    "question": "Diga cuál de las siguientes afirmaciones relativas al algoritmo de sustitución de páginas de uso no frecuentes, NRU, son ciertas:",
+    "options": [
+      "Las afirmaciones a y b son falsas.",
+      "Las afirmaciones a y b son ciertas.",
+      "Este algoritmo posee una tasa de fallos mayor que el algoritmo de la segunda oportunidad (algoritmo del reloj).",
+      "Este algoritmo posee una tasa de fallos mayor que el algoritmo LRU."
+    ],
+    "answerIndex": 3
+  },
+  {
+    "topic": "Tema 3",
+    "question": "La memoria virtual corresponde a un esquema de gestión de memoria que:",
+    "options": [
+      "Permite la ejecución de procesos parcialmente cargados en memoria.",
+      "Obliga a que todos los procesos estén completamente cargados en memoria antes de ejecutarse.",
+      "Elimina por completo los fallos de página en cualquier circunstancia.",
+      "Impide que varios procesos compartan memoria física simultáneamente."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 3",
+    "question": "¿Qué relación en bits hay entre una dirección lógica y una física en memoria virtual?:",
+    "options": [
+      "La dirección lógica es siempre mayor o igual que la física.",
+      "La dirección lógica siempre tiene menos bits que la física.",
+      "La dirección física siempre tiene menos bits que la lógica.",
+      "La dirección lógica y la física siempre tienen exactamente el mismo número de bits."
+    ],
+    "answerIndex": 0
+  },
+
+  {
+    "topic": "Tema 3",
+    "question": "En un sistema operativo multitarea con 1 Mbytes de memoria virtual, 16 Kbytes de espacio lógico de los procesos, páginas de 512 bytes y 32 Kbytes de memoria física, la dirección física está formada por:",
+    "options": [
+      "6 bits para indicar el marco y 9 bits para el desplazamiento.",
+      "5 bits para indicar el marco y 9 bits para el desplazamiento.",
+      "6 bits para indicar el marco y 10 bits para el desplazamiento.",
+      "7 bits para indicar el marco y 9 bits para el desplazamiento."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 3",
+    "question": "En un sistema con gestión de memoria de particiones fijas de tamaño 500 Kb, si se aloja un proceso de 450 Kb:",
+    "options": [
+      "Se produce una fragmentación interna de 50 Kb.",
+      "Se produce una fragmentación externa de 50 Kb.",
+      "No se produce fragmentación.",
+      "Se produce compactación automática de 50 Kb."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 3",
+    "question": "Considerando que la memoria principal está compuesta por cuatro marcos de página y que un proceso se ha dividido en 8 páginas (numeradas de 0 a 7), con la siguiente cadena de referencia: 0 1 7 2 3 2 7 1 3 ¿Cuántos fallos de página ocurrirán utilizando el algoritmo FIFO si los cuatro marcos de página están vacíos al inicio?:",
+    "options": ["5.", "4.", "6.", "7."],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 3",
+    "question": "¿Qué modelos retrasan la traducción de direcciones hasta la ejecución?:",
+    "options": [
+      "Paginación, segmentación y segmentación paginada.",
+      "Solo paginación.",
+      "Solo segmentación.",
+      "Particiones fijas y particiones variables."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 3",
+    "question": "¿Cuál de las siguientes afirmaciones es falsa si tenemos memoria virtual?:",
+    "options": [
+      "Es obligatorio el bit de modificada.",
+      "Se puede ejecutar un proceso parcialmente cargado en memoria.",
+      "Puede haber fallos de página durante la ejecución.",
+      "Se pueden usar algoritmos de sustitución de páginas."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 3",
+    "question": "La principal ventaja de la Memoria Virtual es:",
+    "options": [
+      "Cargar programas con un espacio lógico de direcciones mayor que el físico.",
+      "Eliminar la necesidad de memoria secundaria.",
+      "Garantizar que nunca habrá fallos de página.",
+      "Hacer innecesaria la traducción de direcciones."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 3",
+    "question": "Supongamos un sistema de gestión de memoria virtual con paginación, en el que se utiliza como algoritmo de reemplazo el LRU. Existe un proceso al que se le asignan 4 marcos durante toda su ejecución y que hace referencia a la siguiente lista de páginas: 4 8 9 7 3 8 4 8 4 6 8:",
+    "options": [
+      "Se producen 3 fallos de página aparte de los iniciales.",
+      "Se producen 2 fallos de página aparte de los iniciales.",
+      "Se producen 4 fallos de página aparte de los iniciales.",
+      "Se producen 5 fallos de página aparte de los iniciales."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 3",
+    "question": "Con el sistema / esquema de gestión de memoria mediante particiones fijas se produce:",
+    "options": [
+      "Fragmentación interna.",
+      "Fragmentación externa.",
+      "No se produce fragmentación.",
+      "Hiperpaginación."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 3",
+    "question": "Puede aparecer fragmentación externa en:",
+    "options": [
+      "Segmentación.",
+      "Paginación.",
+      "Particiones fijas.",
+      "Paginación bajo demanda pura."
     ],
     "answerIndex": 0
   }

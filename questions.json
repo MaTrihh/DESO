@@ -1523,5 +1523,668 @@
       "Paginación bajo demanda pura."
     ],
     "answerIndex": 0
+  },
+  {
+    "topic": "Tema 4",
+    "question": "El retardo rotacional depende de:",
+    "options": [
+      "El número de bytes que se desean transmitir.",
+      "El número de bytes que hay en una pista.",
+      "La velocidad de rotación en revoluciones/seg.",
+      "Una constante que depende de la unidad de disco."
+    ],
+    "answerIndex": 2
+  },
+  {
+    "topic": "Tema 4",
+    "question": "Cuando tienen lugar muy pocos accesos a disco cualquier algoritmo de planificación de disco tiende a aproximarse a:",
+    "options": [
+      "El algoritmo de planificación: SSTF.",
+      "El algoritmo de planificación: SCAN.",
+      "El algoritmo de planificación: C-SCAN.",
+      "El algoritmo de planificación: FCFS."
+    ],
+    "answerIndex": 3
+  },
+  {
+    "topic": "Tema 4",
+    "question": "El tiempo de ____ es el tiempo para que el brazo de acceso alcance el cilindro deseado.",
+    "options": ["búsqueda.", "latencia.", "transferencia.", "rotación."],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 4",
+    "question": "El algoritmo SSTF (Shortest Service Time First) para peticiones pendientes de disco tiene el inconveniente de:",
+    "options": [
+      "El bloqueo indefinido de algunas peticiones.",
+      "El retraso en las peticiones que se corresponden con posiciones que están por detrás de la cabeza.",
+      "Las desventajas sobre peticiones intermedias frente a las localizadas en los cilindros más internos y externos.",
+      "Los movimientos bruscos de vaivén a los que está sometido la cabeza de l/e."
+    ],
+    "answerIndex": 3
+  },
+  {
+    "topic": "Tema 4",
+    "question": "El tiempo de ____ es el retardo (medio) para que la rotación del disco posicione el sector solicitado sobre la cabeza de lectura-grabación del mecanismo.",
+    "options": ["latencia.", "búsqueda.", "transferencia.", "acceso."],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 4",
+    "question": "La independencia de dispositivo implica:",
+    "options": [
+      "Ninguna respuesta es correcta.",
+      "Lograr que el tiempo de lectura/escritura sea el mismo independientemente del dispositivo utilizado.",
+      "El sistema operativo está liberado de realizar la gestión de E/S.",
+      "Utilizar todos los dispositivos de E/S con una visión uniforme."
+    ],
+    "answerIndex": 3
+  },
+  {
+    "topic": "Tema 4",
+    "question": "Para un disco duro que gira a 4200 RPM, el tiempo de latencia medio es de ____ ms.",
+    "options": [
+      "7,14.",
+      "14,28.",
+      "4,20.",
+      "No se puede calcular con los datos dados."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 4",
+    "question": "Los dispositivos de cinta magnética son de naturaleza secuencial. Si organizamos un sistema de archivos sobre una cinta, ¿es posible realizar accesos directos sobre los archivos?",
+    "options": [
+      "Sólo es posible si se trata de cintas en cartucho (tipo cassette), no en bobina.",
+      "Sólo es posible si el sistema operativo es independiente del dispositivo.",
+      "Es imposible, por la naturaleza secuencial del dispositivo.",
+      "Es posible, pero sería extremadamente ineficiente."
+    ],
+    "answerIndex": 3
+  },
+  {
+    "topic": "Tema 4",
+    "question": "El tiempo de latencia depende en gran parte de la velocidad rotacional del disco, medida en ____.",
+    "options": ["rpm.", "bps.", "ms.", "Hz."],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 4",
+    "question": "Un ____ es un área de memoria principal para guardar datos durante transferencias de entrada o salida.",
+    "options": ["buffer.", "spool.", "cache.", "registro."],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 4",
+    "question": "Es común construir conjuntos RAID 5 de seis discos con un disco de reserva en línea (denominado ____) que permite empezar de inmediato la reconstrucción en caso de fallo del conjunto.",
+    "options": [
+      "hot spare standby.",
+      "cold backup.",
+      "mirror disk.",
+      "parity disk."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 4",
+    "question": "El tiempo de acceso es:",
+    "options": [
+      "El tiempo de búsqueda + el tiempo rotacional.",
+      "El tiempo de búsqueda + el tiempo rotacional + el tiempo de transferencia.",
+      "El tiempo de búsqueda.",
+      "No existe ese concepto."
+    ],
+    "answerIndex": 1
+  },
+  {
+    "topic": "Tema 4",
+    "question": "Un RAID ____ crea una copia exacta (o espejo) de un conjunto de datos en dos o más discos. Esto resulta útil cuando el rendimiento en lectura es más importante que la capacidad.",
+    "options": ["1+0.", "5.", "1.", "0."],
+    "answerIndex": 2
+  },
+  {
+    "topic": "Tema 4",
+    "question": "El tiempo de ____ es el tiempo que se tarda en satisfacer una petición de entrada salida.",
+    "options": ["acceso.", "latencia.", "búsqueda.", "transferencia."],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 4",
+    "question": "Para un disco duro que gira a 4200 RPM, el tiempo de latencia medio es de:",
+    "options": ["2.", "4,17.", "7,14.", "5,55.", "3."],
+    "answerIndex": 2
+  },
+  {
+    "topic": "Tema 4",
+    "question": "Un RAID ____ es un RAID usado para replicar y compartir datos entre varios discos. Un RAID ____ es una división de espejos.",
+    "options": ["5+0.", "5+1.", "1+0.", "0+1."],
+    "answerIndex": 2
+  },
+  {
+    "topic": "Tema 4",
+    "question": "Un sistema operativo independiente de dispositivo:",
+    "options": [
+      "Indica que el sistema operativo está liberado de realizar la gestión de E/S.",
+      "La gestión de E/S no es capaz de distinguir entre los diferentes periféricos.",
+      "La gestión de E/S no es capaz de distinguir entre los diferentes periféricos.",
+      "No utiliza manejadores de dispositivo, sólo de interrupciones."
+    ],
+    "answerIndex": 2
+  },
+  {
+    "topic": "Tema 4",
+    "question": "La comunicación es asíncrona cuando el proceso que envía el mensaje:",
+    "options": [
+      "Lo realiza de manera indirecta, es decir, a través de un buzón.",
+      "Sólo prosigue su ejecución cuando ha recibido una respuesta del receptor.",
+      "Sigue su ejecución sin preocuparse de si el mensaje se recibe o no.",
+      "Sólo prosigue su tarea cuando el mensaje ha sido recibido."
+    ],
+    "answerIndex": 2
+  },
+  {
+    "topic": "Tema 4",
+    "question": "El retardo rotacional corresponde a:",
+    "options": [
+      "El tiempo necesario para que las cabezas del disco se desplacen al cilindro adecuado.",
+      "El tiempo que tarda el algoritmo de sustitución en seleccionar una página cuando se produce un fallo de página.",
+      "El tiempo que se tarda en transferir los datos en un disco.",
+      "El tiempo que se tarda en transferir los datos en un disco."
+    ],
+    "answerIndex": 3
+  },
+  {
+    "topic": "Tema 4",
+    "question": "Si tengo 3 discos duros de 512 Gb configurados en RAID 0, el espacio total disponible es:",
+    "options": ["1536.", "512.", "No es posible esta configuración.", "1024."],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 4",
+    "question": "Para un disco duro que gira a 7200 RPM, el tiempo de latencia medio es de ____ ms.",
+    "options": ["4,16.", "8,33.", "7,20.", "2,08."],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 4",
+    "question": "Gracias al uso de ____, los dispositivos pueden avisar al sistema operativo de que algo ha ocurrido mientras el procesador ejecuta cualquier tarea.",
+    "options": ["interrupciones.", "buffers.", "spoolers.", "controladores."],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 4",
+    "question": "El tiempo de ____ es el tiempo durante el cual los datos son realmente leídos o escritos en el disco.",
+    "options": ["transferencia.", "búsqueda.", "latencia.", "acceso."],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 4",
+    "question": "¿Cuál de estas técnicas no tiene como fin solapar la ejecución de instrucciones en CPU con la ejecución de operaciones de entrada/salida?",
+    "options": [
+      "Spooling.",
+      "Modo dual de operación.",
+      "Procesamiento fuera de línea (off-line).",
+      "Acceso directo a memoria (DMA)."
+    ],
+    "answerIndex": 1
+  },
+  {
+    "topic": "Tema 4",
+    "question": "Un RAID ____ (también llamado conjunto dividido o volumen dividido) distribuye los datos equitativamente entre dos o más discos sin información de paridad que proporcione redundancia.",
+    "options": ["1+0.", "1.", "5.", "0."],
+    "answerIndex": 3
+  },
+  {
+    "topic": "Tema 4",
+    "question": "Si tengo 3 discos duros de 512 Gb configurados en RAID 1, el espacio total disponible es:",
+    "options": ["1536.", "1024.", "No es posible esta configuración.", "512."],
+    "answerIndex": 3
+  },
+  {
+    "topic": "Tema 4",
+    "question": "La idea básica del mecanismo de E/S por interrupciones consiste en:",
+    "options": [
+      "Buscar mecanismos de interactividad.",
+      "Disponer de un mecanismo acceso directo a memoria.",
+      "Impedir que la CPU esté ociosa mientras espera por E/S.",
+      "Fijar un tiempo límite de servicio de E/S, superado el cual se interrumpe la operación pendiente."
+    ],
+    "answerIndex": 2
+  },
+  {
+    "topic": "Tema 4",
+    "question": "La E/S controlada por programa corresponde a:",
+    "options": [
+      "Una transferencia de E/S a memoria directa.",
+      "Una transferencia de E/S a memoria con interrupciones.",
+      "Una transferencia de E/S a memoria a través de la CPU.",
+      "Una transferencia de E/S a memoria a través del procesador de E/S (PE/S)."
+    ],
+    "answerIndex": 2
+  },
+  {
+    "topic": "Tema 4",
+    "question": "Si tengo 3 discos duros de 512 Gb configurados en RAID 0+1, el espacio total disponible es:",
+    "options": ["1536.", "No es posible esta configuración.", "512.", "1024."],
+    "answerIndex": 1
+  },
+  {
+    "topic": "Tema 4",
+    "question": "Para un disco duro que gira a 10000 RPM, el tiempo de latencia medio es de ____ ms.",
+    "options": [
+      "3.",
+      "6.",
+      "1,5.",
+      "No se puede calcular con los datos dados."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 4",
+    "question": "Si tengo 3 discos duros de 512 Gb configurados en RAID 5, el espacio total disponible es:",
+    "options": ["1536.", "No es posible esta configuración.", "512.", "1024."],
+    "answerIndex": 3
+  },
+  {
+    "topic": "Tema 4",
+    "question": "Un RAID ____ usa división de datos a nivel de bloques distribuyendo la información de paridad entre todos los discos miembros del conjunto.",
+    "options": ["1+0.", "5.", "1.", "0."],
+    "answerIndex": 1
+  },
+  {
+    "topic": "Tema 4",
+    "question": "El tiempo de acceso de un disco se calcula como la suma del tiempo de búsqueda + el tiempo de ____ + tiempo de transferencia:",
+    "options": ["latencia.", "rotación.", "acceso.", "transferencia."],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 4",
+    "question": "El tiempo de acceso de un disco se calcula como la suma del tiempo de búsqueda + el tiempo de latencia + tiempo de _______:",
+    "options": ["latencia.", "rotación.", "acceso.", "transferencia."],
+    "answerIndex": 3
+  },
+  {
+    "topic": "Tema 4",
+    "question": "El tiempo de acceso de un disco se calcula como la suma del tiempo de ____ + el tiempo de latencia + tiempo de transferencia:",
+    "options": ["búsqueda.", "rotación.", "acceso.", "transferencia."],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 4",
+    "question": "Un sistema operativo independiente de dispositivo:",
+    "options": [
+      "Designa de manera uniforme a cada uno de los dispositivos, por ejemplo, en Unix se referencian como archivos.",
+      "No permite distinguir entre distintos dispositivos de E/S.",
+      "No utiliza manejadores de dispositivo.",
+      "Impide la gestión de E/S por parte del sistema operativo."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 4",
+    "question": "El controlador de E/S y la memoria intercambian datos directamente, sin la intervención de la CPU, cuando se tiene:",
+    "options": [
+      "DMA.",
+      "E/S programada.",
+      "E/S por interrupciones.",
+      "Spooling."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 4",
+    "question": "El retardo rotacional corresponde a:",
+    "options": [
+      "El tiempo medio que tarda el sector en estar debajo de la cabeza de lectura/escritura del disco.",
+      "El tiempo necesario para que las cabezas del disco se desplacen al cilindro adecuado.",
+      "El tiempo que se tarda en transferir los datos en un disco.",
+      "El tiempo que tarda el algoritmo de sustitución en seleccionar una página."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 4",
+    "question": "Para un disco duro que gira a 5400 RPM, el tiempo de latencia medio es de ____ ms.",
+    "options": ["5,5.", "11,1.", "3,7.", "2,75."],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 4",
+    "question": "Con la técnica del ____ se utiliza el disco como un enorme búfer.",
+    "options": ["spooling.", "buffering.", "caching.", "swapping."],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 4",
+    "question": "El tiempo de búsqueda corresponde a:",
+    "options": [
+      "El tiempo necesario para que las cabezas del disco se desplacen al cilindro adecuado.",
+      "El tiempo medio que tarda el sector en estar debajo de la cabeza de lectura/escritura.",
+      "El tiempo durante el cual los datos son realmente leídos o escritos.",
+      "El tiempo total de acceso al disco."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 5",
+    "question": "Se tiene un fichero compuesto por 5 registros de 500 bytes cada uno. El fichero está almacenado en un sistema de ficheros con asignación de espacio enlazada, tamaño de bloque de 2 Kbytes, apuntadores de 32 bits y el primer bloque de datos que se asignó al fichero fue el 3100 y que, al crecer por el final, se le asignó el bloque 125. Indique cuál es el primer bloque ocupado por el primer registro del fichero. Los enlaces se sitúan al final del bloque.",
+    "options": [
+      "3100.",
+      "125.",
+      "Depende del tamaño del puntero.",
+      "No se puede determinar con los datos dados."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 5",
+    "question": "En la lectura de un archivo, el acceso secuencial se diferencia del acceso aleatorio en que se puede suponer que:",
+    "options": [
+      "Una vez leída la primera pista, en las restantes el retardo rotacional es despreciable.",
+      "No existe diferencia alguna debido al tipo de acceso.",
+      "Una vez leída la primera pista, en las restantes el tiempo de transferencia es despreciable.",
+      "Una vez leída la primera pista, en las restantes el tiempo de búsqueda es despreciable."
+    ],
+    "answerIndex": 3
+  },
+  {
+    "topic": "Tema 5",
+    "question": "Sea un sistema de ficheros con asignación de espacio mediante i-nodos, donde cada i-nodo tiene 10 entradas para acceso directo, 3 para acceso indirecto simple, 2 para acceso indirecto doble y 3 para acceso indirecto triple. El tamaño de bloque es de 2 Kbytes y el tamaño de los índices es de 64 bits. ¿Cuál es el número de bloques a los que se puede acceder usando los apuntadores indirectos triples?",
+    "options": ["50331648.", "33554432.", "67108864.", "16777216."],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 5",
+    "question": "La lista de capacidades representa:",
+    "options": [
+      "Un mecanismo de protección y control de acceso.",
+      "El mecanismo de asignación de memoria para las páginas nuevas que se sigue en la memoria virtual.",
+      "Una tabla del sistema operativo que relaciona el conjunto de procesos con los recursos asignados a cada uno.",
+      "Una tabla del sistema operativo en la que se representa el total de los recursos del sistema."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 5",
+    "question": "El mapa de bits sirve:",
+    "options": [
+      "Para mantener una lista de los bloques que se han modificado y deben ser actualizados en el disco.",
+      "Como contador de las señales generadas de forma periódica por el reloj en tiempo real.",
+      "Para mantener una lista del espacio libre en disco.",
+      "Para indicar qué bloques componen la caché del disco."
+    ],
+    "answerIndex": 2
+  },
+  {
+    "topic": "Tema 5",
+    "question": "La entrada especial para cada directorio “..” (punto-punto), en los sistemas con directorios jerárquicos representa:",
+    "options": [
+      "Una entrada para el directorio hijo (el que está por debajo en la jerarquía).",
+      "Una entrada para el propio directorio (con un puntero a sí mismo).",
+      "Esta entrada sólo existe en los directorios de nivel único para simular diferentes niveles.",
+      "Una entrada para el directorio padre (el que está por encima en la jerarquía)."
+    ],
+    "answerIndex": 3
+  },
+  {
+    "topic": "Tema 5",
+    "question": "Sea un sistema de ficheros con asignación de espacio mediante i-nodos, donde cada i-nodo tiene 10 entradas para acceso directo, 3 para acceso indirecto simple, 2 para acceso indirecto doble y 3 para acceso indirecto triple. El tamaño de bloque es de 2 Kbytes y el tamaño de los índices es de 64 bits. ¿Cuál es el número de bloques a los que se puede acceder usando los apuntadores indirectos dobles?",
+    "options": ["131072.", "65536.", "262144.", "32768."],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 5",
+    "question": "Sea un sistema de ficheros con asignación de espacio mediante i-nodos, donde cada i-nodo tiene 10 entradas para acceso directo, 3 para acceso indirecto simple, 2 para acceso indirecto doble y 3 para acceso indirecto triple. El tamaño de bloque es de 2 Kbytes y el tamaño de los índices es de 64 bits. ¿Cuál es el número de bloques a los que se puede acceder usando los apuntadores indirectos simples?",
+    "options": ["768.", "512.", "1024.", "256."],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 5",
+    "question": "Imagina un sistema de archivos como el de Linux, con la diferencia de que no se permiten enlaces a archivos. En este hipotético caso, la organización del sistema de ficheros sería:",
+    "options": [
+      "De árbol.",
+      "De grafo acíclico.",
+      "De grafo general.",
+      "De dos niveles recursivos."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 5",
+    "question": "En Unix, el nodo-i (nodo índice) corresponde a una tabla:",
+    "options": [
+      "Con el conjunto de trabajo o conjunto de páginas utilizadas en un determinado momento por el proceso.",
+      "Que cada proceso tiene asociado, con toda la información de los recursos que necesita y los que utiliza.",
+      "Que cada archivo tiene asociado, con los atributos y las direcciones de los bloques del archivo.",
+      "Que cada proceso tiene asociado, con toda la información que necesita el sistema para controlar su ejecución."
+    ],
+    "answerIndex": 2
+  },
+  {
+    "topic": "Tema 5",
+    "question": "En la asignación del espacio de disco, el método mediante listas enlazadas presenta el inconveniente de que:",
+    "options": [
+      "El acceso aleatorio es extremadamente lento.",
+      "La fragmentación externa resultante en el disco.",
+      "El mapa de bits asociado para la gestión del espacio libre es muy grande.",
+      "La pérdida de espacio debido a la tabla de índices."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 5",
+    "question": "La operación de apertura de fichero sirve para:",
+    "options": [
+      "Permitir que los dispositivos de entrada/salida inicien el controlador de DMA.",
+      "El sistema operativo lleve el control de qué ficheros están siendo usados en cada momento.",
+      "El sistema operativo pueda traer a memoria la FAT.",
+      "Todas las respuestas son falsas."
+    ],
+    "answerIndex": 1
+  },
+  {
+    "topic": "Tema 5",
+    "question": "Sea un sistema de ficheros que contiene 2^32 bloques de 1024 bytes para guardar datos. ¿Qué tamaño debe tener cada entrada de la FAT si se emplean clusters de 4 bloques?",
+    "options": [
+      "32 bits.",
+      "30 bits.",
+      "24 bits.",
+      "No tiene sentido usar clusters cuando se trabaja con una FAT."
+    ],
+    "answerIndex": 1
+  },
+  {
+    "topic": "Tema 5",
+    "question": "En un sistema de ficheros con sistema de asignación enlazado, tamaño de bloque de 1 Kbyte y tamaño de índice de 2 bytes, ¿cuál es el tamaño máximo de que puede llegar a tener un fichero?",
+    "options": [
+      "524288.",
+      "262144.",
+      "131072.",
+      "No se puede determinar con los datos dados."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 5",
+    "question": "Dentro de los mecanismos de protección y control de acceso de un sistema se encuentra:",
+    "options": [
+      "La lista enlazada.",
+      "La tabla de índices.",
+      "El conjunto de trabajo.",
+      "La lista de capacidades."
+    ],
+    "answerIndex": 3
+  },
+  {
+    "topic": "Tema 5",
+    "question": "Para obtener un listado de los nombres de los ficheros que hay en un determinado directorio:",
+    "options": [
+      "Los nombres de los ficheros forman parte de las entradas del directorio; basta con leerlos de él.",
+      "Hay que abrir uno a uno los ficheros para averiguar su nombre y después volverlos a cerrar.",
+      "Hay que acceder a la FAT para leer los nombres.",
+      "Hay que acceder primero al i-nodo de cada fichero y después a la FAT."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 5",
+    "question": "Sea un sistema de ficheros con asignación de espacio mediante i-nodos, donde cada i-nodo tiene 10 entradas para acceso directo, 3 para acceso indirecto simple, 2 para acceso indirecto doble y 3 para acceso indirecto triple. El tamaño de bloque es de 2 Kbytes y el tamaño de los índices es de 64 bits. ¿Cuál es el número de bloques a los que se puede acceder usando los apuntadores directos?",
+    "options": ["10.", "20.", "30.", "64."],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 5",
+    "question": "Para la gestión del espacio libre de un disco de N bloques con L libres es necesario un mapa de bits:",
+    "options": ["Con N bytes.", "Con N bits.", "Con L bytes.", "Con L bits."],
+    "answerIndex": 1
+  },
+  {
+    "topic": "Tema 5",
+    "question": "Se tiene un fichero compuesto por 5 registros de 500 bytes cada uno. El fichero está almacenado a partir del bloque 1100 de un sistema de ficheros con asignación de espacio contigua y tamaño de bloque de 2 Kbytes. Indique cuál es el último bloque ocupado por el último registro del fichero.",
+    "options": [
+      "1101.",
+      "1100.",
+      "1102.",
+      "No se puede determinar con los datos dados."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 5",
+    "question": "¿Qué tipo de directorios se emplean en Linux?",
+    "options": [
+      "De grafo general.",
+      "De grafo acíclico.",
+      "De dos niveles con bifurcación par.",
+      "De árbol."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 5",
+    "question": "Para la gestión del espacio libre en disco se utiliza el siguiente método:",
+    "options": [
+      "El mapa de bits.",
+      "Se gestiona mediante llamadas al sistema operativo.",
+      "El mapa de words.",
+      "La regla del cincuenta por ciento."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 5",
+    "question": "Para la gestión del espacio libre en disco se utiliza el siguiente método:",
+    "options": [
+      "No es ninguna entrada.",
+      "Una entrada para el directorio \"padre\".",
+      "Una entrada para el directorio raíz.",
+      "Una entrada para el propio directorio."
+    ],
+    "answerIndex": 3
+  },
+  {
+    "topic": "Tema 5",
+    "question": "El tiempo total empleado en la lectura de un archivo:",
+    "options": [
+      "Es mayor cuando el acceso es secuencial que cuando es aleatorio.",
+      "Es parecido cuando el acceso es secuencial que cuando es aleatorio.",
+      "Depende del orden en que se leen los sectores del disco.",
+      "Es menor cuando el acceso es secuencial que cuando es aleatorio."
+    ],
+    "answerIndex": 2
+  },
+  {
+    "topic": "Tema 5",
+    "question": "En la asignación de espacio de disco el método de asignación contiguo presenta el siguiente inconveniente:",
+    "options": [
+      "El acceso aleatorio es extremadamente lento.",
+      "El mapa de bits asociado para la gestión del espacio libre es muy grande.",
+      "La pérdida de espacio debido a la tabla de índices.",
+      "La fragmentación externa resultante en el disco."
+    ],
+    "answerIndex": 3
+  },
+  {
+    "topic": "Tema 5",
+    "question": "Un sistema de ficheros que usa asignación con listas enlazadas, con un tamaño de bloque de 1 Kbyte y tamaño de enlace de 2 bytes permite un tamaño máximo de fichero de:",
+    "options": [
+      "65407 Kbytes.",
+      "65408 Kbytes.",
+      "65536 Kbytes.",
+      "2^16 bloques."
+    ],
+    "answerIndex": 1
+  },
+  {
+    "topic": "Tema 5",
+    "question": "El método de listas enlazadas para la asignación del espacio en disco presenta el siguiente inconveniente:",
+    "options": [
+      "La fragmentación externa resultante en el disco.",
+      "La pérdida de espacio debido a las tablas de índices.",
+      "Es necesario conocer el tamaño máximo de archivo en el momento de su creación.",
+      "El acceso aleatorio a un archivo es extremadamente lento."
+    ],
+    "answerIndex": 3
+  },
+  {
+    "topic": "Tema 5",
+    "question": "En un sistema operativo se utiliza una estructura de nodos-i parecida a la de Unix. Los bloques son de 1024 bytes. Las entradas en los nodos-i dedican 64 bits al tamaño del archivo y 16 bits a los punteros de los bloques. El nodo-i tiene ocho entradas de direccionamiento directo, una de direccionamiento indirecto simple y otra de direccionamiento indirecto doble. La tabla de archivos abiertos tiene una entrada para cada archivo con un campo de 64 bits que indica el desplazamiento.",
+    "options": [
+      "El número máximo de bloques asignados a un archivo en su nodo-i es de 262664.",
+      "El tamaño máximo de un archivo que utiliza todo el disco es de 64M bits.",
+      "El tamaño máximo de un fichero es de 264 bloques.",
+      "Todas las respuestas son falsas."
+    ],
+    "answerIndex": 3
+  },
+  {
+    "topic": "Tema 5",
+    "question": "Se tiene un fichero compuesto por 5 registros de 500 bytes cada uno. El fichero está almacenado a partir del bloque 1100 de un sistema de ficheros con asignación de espacio contigua y tamaño de bloque de 2 Kbytes. Indique cuál es el primer bloque ocupado por el último registro del fichero.",
+    "options": [
+      "1100.",
+      "1101.",
+      "1099.",
+      "No se puede determinar con los datos dados."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 5",
+    "question": "Se tiene un fichero compuesto por 5 registros de 500 bytes cada uno. El fichero está almacenado en un sistema de ficheros con asignación de espacio enlazada, tamaño de bloque de 2 Kbytes, apuntadores de 32 bits y el primer bloque de datos que se asignó al fichero fue el 3100 y que, al crecer por el final, se le asignó el bloque 125. Indique cuál es el primer bloque ocupado por el último registro del fichero. Los enlaces se sitúan al final del bloque.",
+    "options": [
+      "125.",
+      "3100.",
+      "3101.",
+      "No se puede determinar con los datos dados."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 5",
+    "question": "El mapa de bits para mantener el espacio libre en el disco ocupará:",
+    "options": [
+      "Tantos bits como bloques tenga el disco.",
+      "Tantos bits como bloques tenga el disco multiplicado por el número de registros que tenga cada bloque.",
+      "Tantos bits como bloques libres tenga el disco.",
+      "El mapa de bits solo se usa para la gestión de la memoria principal."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Tema 5",
+    "question": "La entrada especial para cada directorio \".\" (punto) representa:",
+    "options": [
+      "Una entrada para el directorio \"padre\".",
+      "Una entrada para el directorio raíz.",
+      "No es ninguna entrada.",
+      "Una entrada para el propio directorio."
+    ],
+    "answerIndex": 3
+  },
+  {
+    "topic": "Tema 5",
+    "question": "En un sistema operativo se utiliza una estructura de nodos-i parecida a la de Unix. Los bloques son de 1024 bytes y tamaño de los punteros a bloques es de 32 bits. El nodo-i tiene un cierto número de entradas de direccionamiento directo, una de direccionamiento indirecto simple y otra de direccionamiento indirecto doble. Sabiendo que el tamaño máximo de un archivo es de 65800 Kbytes, ¿cuántas entradas directas hay en el i-nodo?",
+    "options": ["8.", "4.", "16.", "32."],
+    "answerIndex": 0
   }
 ]

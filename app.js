@@ -202,13 +202,39 @@ function finishExam(fromTimeout = false) {
       d.user === null ? "— (sin responder)" : d.q.options[d.user];
     const correctText = d.q.options[d.q.answerIndex];
 
+    const allOptsHtml = d.q.options
+      .map((op, oi) => {
+        const isCorrect = oi === d.q.answerIndex;
+        const isUser = d.user === oi;
+
+        let cls = "muted";
+        let tag = "";
+
+        if (isCorrect) {
+          cls = "good";
+          tag = " ✅ Correcta";
+        }
+        if (isUser && !isCorrect) {
+          cls = "bad";
+          tag = " ❌ Tu respuesta";
+        }
+        if (isUser && isCorrect) {
+          cls = "good";
+          tag = " ✅ Tu respuesta";
+        }
+
+        return `<li class="${cls}">${op}${tag}</li>`;
+      })
+      .join("");
+
     div.innerHTML = `
-      <div><strong>${i + 1}.</strong> ${d.q.question}</div>
-      <div class="${d.ok ? "good" : "bad"}">${d.ok ? "✅ Bien" : "❌ Mal"}</div>
-      <div class="muted">Tu respuesta: ${userText}</div>
-      ${d.ok ? "" : `<div><strong>Correcta:</strong> ${correctText}</div>`}
-      <div class="muted">Tema: ${d.q.topic || "Sin tema"}</div>
-    `;
+  <div><strong>${i + 1}.</strong> ${d.q.question}</div>
+  <div class="${d.ok ? "good" : "bad"}">${d.ok ? "✅ Bien" : "❌ Mal"}</div>
+  <div class="muted">Tu respuesta: ${userText}</div>
+  ${d.ok ? "" : `<div><strong>Opciones:</strong><ul>${allOptsHtml}</ul></div>`}
+  <div class="muted">Tema: ${d.q.topic || "Sin tema"}</div>
+`;
+
     list.appendChild(div);
   });
 }

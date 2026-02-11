@@ -2186,5 +2186,269 @@
     "question": "En un sistema operativo se utiliza una estructura de nodos-i parecida a la de Unix. Los bloques son de 1024 bytes y tamaño de los punteros a bloques es de 32 bits. El nodo-i tiene un cierto número de entradas de direccionamiento directo, una de direccionamiento indirecto simple y otra de direccionamiento indirecto doble. Sabiendo que el tamaño máximo de un archivo es de 65800 Kbytes, ¿cuántas entradas directas hay en el i-nodo?",
     "options": ["8.", "4.", "16.", "32."],
     "answerIndex": 0
+  },
+  {
+    "topic": "Examen Fisica",
+    "question": "El Principio de Conservación de la Carga nos dice que en la Naturaleza la carga de un sistema aislado permanece constante. La carga en la Naturaleza",
+    "options": [
+      "Se crea, pero no se destruye.",
+      "Se crea y se destruye.",
+      "No se crea, pero sí se destruye.",
+      "Ni se crea ni se destruye."
+    ],
+    "answerIndex": 1
+  },
+  {
+    "topic": "Examen Fisica",
+    "question": "Para una propiedad, un medio es anisótropo, si su valor ... , y heterogéneo, si su valor ...",
+    "options": [
+      "Depende de la direccion considerada | Depende del punto considerado.",
+      "Depende de la direccion considerada | NO depende del punto considerado.",
+      "NO dpende de la direccion considerada | Depende del punto considerado.",
+      "NO dpende de la direccion considerada | NO depende del punto considerado."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Examen Fisica",
+    "question": "Si se tienen dos cargas puntuales, una positiva y otra negativa, el campo que crea la primera donde está la segunda y la fuerza que ejerce sobre ella son vectores ... , y en el caso de la segunda ...",
+    "options": [
+      "Paralelos | Paralelos.",
+      "Antiparalelos | Antiparalelos.",
+      "Antiparalelos | Paralelos.",
+      "Paralelos | Antiparalelos."
+    ],
+    "answerIndex": 2
+  },
+  {
+    "topic": "Examen Fisica",
+    "question": "El número neto de lineas de campo eléctrico que se dibujan emergiendo o convergiendo sobre un sistema de cargas es ... la carga del sistema. Si la carga es nula, ... . Y el valor del campo es proporcional a la... de lineas de campo pintadas",
+    "options": [
+      "Proporcional a | Salen las mismas que entran | Densidad.",
+      "Proporcional a | No salen, ni entran | Densidad.",
+      "Igual a | Salen las mismas que entran | Cantidad.",
+      "Igual a | No salen, ni entran | Cantidad."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Examen Fisica",
+    "question": "Dos cuerpos neutros...",
+    "options": [
+      "Se atraen, si la posición promedio de Q+ y Q- de uno no coinciden.",
+      "Nunca se atraen, porque las posiciones promedio de Q+ y Q-coinciden.",
+      "Se repelen, si la posición promedio de Q+ y Q- de uno no coinciden.",
+      "Nunca se repelen, porque las posiciones promedio de Q+ y Q- coinciden."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Examen Fisica",
+    "question": "El campo gravitatorio creado por la Tierra, si la consideramos formada por superficies esfericas uniformes, valdría fuera de ella, lo mismo que el creado por una masa puntual con toda la masa de la Tierra situada en su centro, y en el centro de la Tierra ... . El campo gravitatorio terrestre es...",
+    "options": [
+      "Sería nulo | discontinuo.",
+      "Sería igual a su valor en la superficie 9,81 m/s2 | continuo.",
+      "Sería nulo | continuo.",
+      "Sería igual a su valor en la superficie 9,81 m/s2 | discontinuo."
+    ],
+    "answerIndex": 2
+  },
+  {
+    "topic": "Examen Fisica",
+    "question": "El potencial electrico creado por una superficie esferica uniformemente cargada, vale fuera de ella, lo mismo que el creado por una carga puntual con toda la carga de la esfera situada en su centro, y dentro de ella, ... . El potencial es...",
+    "options": [
+      "Es nulo | discontinuo.",
+      "Es nulo | continuo.",
+      "Es cte. e igual al valor del V en la superficie de la esfera | discontinuo.",
+      "Es cte. e igual al valor del V en la superficie de la esfera | continuo."
+    ],
+    "answerIndex": 3
+  },
+  {
+    "topic": "Examen Fisica",
+    "question": "Las superficies equipotenciales son ... a las lineas de campo y cuanto mas juntas estan ... es el campo",
+    "options": [
+      "paralelas | menor.",
+      "paralelas | mayor.",
+      "perpendiculares | menor.",
+      "perpendiculares | mayor."
+    ],
+    "answerIndex": 3
+  },
+  {
+    "topic": "Examen Fisica",
+    "question": "Si dos conductores se ponen en contacto, se iguala su ... y se hace nulo el ... en ellos. La capacidad de un condensador plano es igual a la permitividad de su dielectrico multiplicada por ... y dividida por ...",
+    "options": [
+      "potencial eléctrico | campo eléctrico | A de una placa | d entre ellas.",
+      "carga eléctrica | potencial eléctrico | A de una placa | d entre ellas.",
+      "potencial eléctrico | campo eléctrico | d entre ellas | A de una placa.",
+      "carga eléctrica | potencial eléctrico | d entre ellas | A de una placa."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Examen Fisica",
+    "question": "Una jaula de Faraday protege de ...",
+    "options": [
+      "Campos eléctricos y magnéticos de origen interno.",
+      "Campos eléctricos y ondas electromagnéticas de origen interno.",
+      "Campos eléctricos y magnéticos de origen externo.",
+      "Campos eléctricos y ondas electromagnéticas de origen externo."
+    ],
+    "answerIndex": 3
+  },
+  {
+    "topic": "Examen Fisica",
+    "question": "Para una asociacion en paralelo de condensadores, la carga almacenada por el condensador equivalente es ... y su capacidad ...",
+    "options": [
+      "la de uno de ellos | la suma de sus capacidades.",
+      "la suma de las que tienen | la suma de sus capacidades.",
+      "la suma de las que tienen | la inversa de la suma de la capacidad inversa.",
+      "la de uno de ellos | la inversa de la suma de la capacidad inversa."
+    ],
+    "answerIndex": 1
+  },
+  {
+    "topic": "Examen Fisica",
+    "question": "En un dielectrico, el campo electrico total tras aplicar un campo electrico es ... que el aplicado. Y la constante dielectrica que la caracteriza no depende del campo aplicado si el medio es ...",
+    "options": [
+      "mayor | homogéneo.",
+      "menor | isótropo.",
+      "mayor | ideal.",
+      "menor | lineal."
+    ],
+    "answerIndex": 3
+  },
+  {
+    "topic": "Examen Fisica",
+    "question": "La resistencia electrica de la parte conductora de un cable depende ... de su longitud, ... de su seccion e/y ... de su conductividad.",
+    "options": [
+      "inversamente | inversamente | directamente.",
+      "directamente | directamente | inversamente.",
+      "directamente | inversamente | inversamente.",
+      "inversamente | directamente | directamente."
+    ],
+    "answerIndex": 2
+  },
+  {
+    "topic": "Examen Fisica",
+    "question": "Si entre los dos terminales de una porcion de circuito el sentido de la caida de potencial coincide con el de la corriente, es porcion ... energia. ....",
+    "options": [
+      "consume | la porción no podría ser una pila ideal.",
+      "consume | la porción podría ser una pila ideal.",
+      "suministra | la porción no podría ser una batería ideal.",
+      "suministra | la porción podría ser una batería ideal."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Examen Fisica",
+    "question": "El amperio-hora es una unidad de ... y el kilovatio-hora de ... .",
+    "options": [
+      "corriente | potencia.",
+      "carga | potencia.",
+      "corriente | energía.",
+      "carga | energía."
+    ],
+    "answerIndex": 3
+  },
+  {
+    "topic": "Examen Fisica",
+    "question": "En la experiencia de Oersted, si la corriente circula en sentido Sur-Norte, la brujula gira, mirando desde el Norte, ... . Las lineas de campo magnetico ... son cerradas",
+    "options": [
+      "entre 0 y 90 grados a la izquierda | siempre.",
+      "entre 0 y 90 grados a la derecha | siempre.",
+      "entre 0 y 90 grados a la izquierda | no siempre.",
+      "entre 0 y 90 grados a la derecha | no siempre."
+    ],
+    "answerIndex": 1
+  },
+  {
+    "topic": "Examen Fisica",
+    "question": "Si se tiene un cable por el que circula corriente situado en un campo magnetico, aparece una ddp ... al cable atendiendo ...",
+    "options": [
+      "paralela | al Efecto Hall.",
+      "perpendicular | al Efecto Hall.",
+      "perpendicular | a la Ley de Laplace.",
+      "paralela | a la Ley de Laplace."
+    ],
+    "answerIndex": 1
+  },
+  {
+    "topic": "Examen Fisica",
+    "question": "Si un dipolo magnetico siente un campo magnetico uniforme tiende a ...",
+    "options": [
+      "Cualquiera de las otras tres.",
+      "deformarse y desplazarse.",
+      "desplazarse y rotar.",
+      "rotar y deformarse."
+    ],
+    "answerIndex": 3
+  },
+  {
+    "topic": "Examen Fisica",
+    "question": "Si se tiene un circuito de corriente ... no se puede recargar la bateria de un movil sin conectarla a el",
+    "options": [
+      "continua (constante).",
+      "alterna (sinusoidal).",
+      "transitoria.",
+      "cualquiera de las otras tres."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Examen Fisica",
+    "question": "Si tenemos una espira en un campo magnetico uniforme, nunca aparece una corriente inducida en la espira si la ...",
+    "options": [
+      "desplazamos.",
+      "giramos.",
+      "deformamos.",
+      "aparece en los tres casos."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Examen Fisica",
+    "question": "Son fuentes de campo magnetico",
+    "options": [
+      "No todas las cargas eléctricas y todos los campos eléctricos.",
+      "No todas las cargas eléctricas y no todos los campos eléctricos.",
+      "Todas las cargas eléctricas y no todos los campos eléctricos.",
+      "Todas las cargas eléctricas y todos los campos eléctricos."
+    ],
+    "answerIndex": 1
+  },
+  {
+    "topic": "Examen Fisica",
+    "question": "Tras aplicar una tension constante a un circuito RC, con el condensador inicialmente descargado, la evolucion temporal de la corriente es ..., y en un circuito RL, la de la tension de la bobina, si no existe corriente en el circuito al inicio es ...",
+    "options": [
+      "I = Ioe-t/τ | VL= VLoe-t/τ.",
+      "I = Ioe-t/τ | VL= VLf (1 - e-t/τ).",
+      "I = If (1 - e-t/τ) | VL= VLoe-t/τ.",
+      "I = If (1 - e-t/τ) | VL= VLf (1 - e-t/τ)."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "topic": "Examen Fisica",
+    "question": "El Principio de Superposicion aplicado a un circuito dice que: En cada rama de un circuito lineal, la intensidad que circula por ella, o la caida de potencial establecida en ella, es igual a la suma de las intensidades que circularian por la rama, o a la suma de las caidas de potencial que se establecerian en la rama, si se considerase cada fuente del circuito ... por separado",
+    "options": [
+      "real e independiente.",
+      "ideal y dependiente.",
+      "ideal e independiente.",
+      "real y dependiente."
+    ],
+    "answerIndex": 2
+  },
+  {
+    "topic": "Examen Fisica",
+    "question": "La ecuacion de neutralidad de un cristal semiconductor ... es ...",
+    "options": [
+      "extrínseco compensado | n + Na = p + Nd.",
+      "intrínseco | n + Nd = p + Na.",
+      "extrínseco tipo n | n + Nd = p.",
+      "extrínseco tipo p | n = p + Na."
+    ],
+    "answerIndex": 0
   }
 ]
